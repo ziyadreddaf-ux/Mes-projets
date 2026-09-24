@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription Nouveau Client</title>
+</head>
+
+<body bgcolor="gold">
+
+    <header>
+        <h1>Inscrivez-vous les amis !!</h1>
+    </header>
+
+    <section>
+
+        <form action="#" method="post">
+
+            <table width="70%" border="5">
+
+                <tr>
+                    <td>
+                        <label for="nom">Nom :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="nom" name="nom">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="prenom">Prénom :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="prenom" name="prenom">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="date">Date de naissance :</label>
+                    </td>
+                    <td>
+                        <input type="date" id="date" name="date">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Adresse mail :</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="mdp">Mot de passe :</label>
+                    </td>
+                    <td>
+                        <input type="password" id="mdp" name="mdp">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="permis">Numéro de permis :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="permis" name="permis">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="anciennete">Ancienneté du permis :</label>
+                    </td>
+                    <td>
+                        <input type="number" id="anciennete" name="anciennete" min="0">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="agence">Agence de rattachement :</label>
+                    </td>
+                    <td>
+                        <select id="agence" name="agence">
+                            <option value="paris">Paris</option>
+                            <option value="versailles">Versailles</option>
+                            <option value="creteil">Créteil</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="adresse">Adresse du client :</label>
+                    </td>
+                    <td>
+                        <textarea id="adresse" name="adresse" rows="4" cols="30"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Situation matrimoniale :
+                    </td>
+                    <td>
+                        <input type="radio" id="marie" name="situation" value="marie">
+                        <label for="marie">Marié</label>
+
+                        <input type="radio" id="nonMarie" name="situation" value="nonMarie">
+                        <label for="nonMarie">Non marié</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Préférences de véhicule :
+                    </td>
+                    <td>
+                        <input type="checkbox" id="citadine" name="vehicule" value="citadine">
+                        <label for="citadine">Citadine</label>
+
+                        <br>
+
+                        <input type="checkbox" id="berline" name="vehicule" value="berline">
+                        <label for="berline">Berline</label>
+
+                        <br>
+
+                        <input type="checkbox" id="suv" name="vehicule" value="suv">
+                        <label for="suv">SUV</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="submit" value="Enregistrer">
+                    </td>
+
+                    <td>
+                        <input type="reset" value="Annuler">
+                    </td>
+                </tr>
+
+            </table>
+
+        </form>
+
+    </section>
+
+
+
+</body>
+
+</html>
+
