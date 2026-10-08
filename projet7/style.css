@@ -1,0 +1,47 @@
+```css
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+    margin: 40px;
+}
+
+h1 {
+    color: darkred;
+    text-align: center;
+}
+
+h2 {
+    color: darkred;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: darkred;
+    color: white;
+}
+```
+
+th {
+    background-color: darkred;
+    color: white;
+}
+```

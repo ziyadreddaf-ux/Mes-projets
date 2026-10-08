@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #68152d, #a72c4d);
+    font-family: Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.bloc {
+    width: 33%;
+    background-color: #b93455;
+    border: 5px solid #461b4e;
+    border-radius: 15px;
+    padding: 15px;
+    min-height: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bloc h2 {
+    background-color: #8e2342;
+    border: 3px solid #461b4e;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.bloc p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.centre {
+    text-align: center;
+}
+
+.centre img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid #461b4e;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #461b4e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #321238;
+}
+
+/* Adaptation téléphone */
+
+@media (max-width: 800px) {
+    .conteneur {
+        flex-direction: column;
+    }
+
+    .bloc {
+        width: 100%;
+    }
+}
+th {
+    background-color: darkred;
+    color: white;
+}
+```
